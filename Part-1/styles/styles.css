@@ -7,14 +7,14 @@ body {
 
 h3 {
     color: blue;
-    border: 1px solid #929CA4
+    border-bottom: 1px solid #929CA4
 }
 
 p:first-of-type::first-letter {
     font-size: 30px;
 }
 
-.solution {
+.solution::first-line {
     color: #CC1C0D;
     font-weight: bold;
 }
